@@ -318,13 +318,13 @@
 
 
 
-const sum = (a , b) => {
-    console.log(a+b);
-}
+// const sum = (a , b) => {
+//     console.log(a+b);
+// }
 
-sum(10, 30)
-console.log(sum)
+// sum(10, 30)
+// console.log(sum)
 
 
-const cube= (n) => n* n * n;
+// const cube= (n) => n* n * n;
 
