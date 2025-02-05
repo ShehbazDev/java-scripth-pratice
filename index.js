@@ -8,9 +8,26 @@
 
 // console.log('23' / '2')
 
+const inputyear = '1991';
+console.log(Number(inputyear),inputyear);
+console.log(inputyear + 18)
+
+console.log('i am ' + 23 + 'year old')
+console.log('23' - '10' - 3);
+console.log('23' / '2')
+
+
+
+
 // let n = '1' + 1;
-// n = n - 1;
+// n = n - 1; 
 // console.log(n);
+
+let n = '1' + '1';
+n = n - 1;
+console.log(n);
+
+
 
 // const money = 100;
 // if (money) {
@@ -19,6 +36,15 @@
 //     console.log("djjsd")
 // }
 
+const money = 100;
+if (money) {
+    console.log("i dont like")
+} else {
+    console.log("i like ")
+}
+
+
+
 // const hasdrivelinces = true;
 // const hasgoodvision = true;
 // const istired = false;
@@ -26,11 +52,28 @@
 // console.log(hasdrivelinces || hasgoodvision)
 // console.log(!hasgoodvision)
 
-// if (hasdrivelinces && hasgoodvision && !istired) {
-//     console.log('shabaz is good boy ... is ka condition true ha')
+// if (hasdrivelinces && hasgoodvision && !istried) {
+//     console.log('shebaz is good .. is condition ma true ha')
 // } else {
-//     console.log('shebaz is bad boy ... is ka condition false ha')
+//     console.log('shehbaz is bad ... is condion ma false ha')
 // }
+
+
+
+const hasdrivelinces = true;
+const hasdrive =true;
+const has = true;
+console.log(has  || hasdrive)
+console.log(hasdrivelinces && hasdrive)
+console.log(!has)
+
+if (hasdrivelinces && hasdrive && !has) {
+    console.log('shabaz is good boy ... is ka condition true ha')
+} else {
+    console.log('shebaz is bad boy ... is ka condition false ha')
+}
+
+
 
 // const shabaz = true;
 // const abid = true;
@@ -41,6 +84,18 @@
 // } else (
 //     console.log('this is false value...')
 // )
+
+const shehbaz = true; 
+const abid = true;
+const meraj = !false;
+
+if (shehbaz && abid && meraj) {
+    console.log('thi is true value ...')
+} else (
+    console.log ('this is false value ... ')
+)
+
+
 
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas = (88 + 91 + 110) / 3;
@@ -56,7 +111,20 @@
 //   console.log("Dolphins Average:", scoreDolphins);
 // console.log("Koalas Average:", scoreKoalas);
 
-//  const day = 'friday';
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (96 + 108 + 56) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+    console.log("dolphin winner the trophy🏆")
+} else if (scoreKoalas > scoreDolphins) {
+    console.log("koalas winner the trpophy 🏆")
+} else {
+    console.log("today game draw")
+}
+
+
+
+//  const day = 'monday';
 
 //  switch (day) {
 //     case 'monday':
@@ -80,6 +148,26 @@
 //     default:
 //     console.log('not a valid day!')
 //  }
+
+const day = 'monday';
+switch (day) {
+        case 'monday':
+        console.log('plane course structure');
+        console.log('Go to coding meetup');
+        break;
+        case 'Tuesday':
+        console.log('write with example');
+        case 'wenesday':
+        console.log('preapre thery videos');
+        break;
+        case 'thusday':
+        console.log('enjoy the weekend :D');
+        case
+
+}
+
+
+
 
 // const age = 30;
 
