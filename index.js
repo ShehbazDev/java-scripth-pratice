@@ -111,16 +111,16 @@ if (shehbaz && abid && meraj) {
 //   console.log("Dolphins Average:", scoreDolphins);
 // console.log("Koalas Average:", scoreKoalas);
 
-const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (96 + 108 + 56) / 3;
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (96 + 108 + 56) / 3;
 
-if (scoreDolphins > scoreKoalas) {
-    console.log("dolphin winner the trophy🏆")
-} else if (scoreKoalas > scoreDolphins) {
-    console.log("koalas winner the trpophy 🏆")
-} else {
-    console.log("today game draw")
-}
+// if (scoreDolphins > scoreKoalas) {
+//     console.log("dolphin winner the trophy🏆")
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log("koalas winner the trpophy 🏆")
+// } else {
+//     console.log("today game draw")
+// }
 
 
 
@@ -162,7 +162,7 @@ switch (day) {
         break;
         case 'thusday':
         console.log('enjoy the weekend :D');
-        case
+    
 
 }
 
@@ -174,16 +174,36 @@ switch (day) {
 // const drink = age >= 18 ? 'I Like drink wine' : 'water';
 // console.log(drink);
 
+// const age = 30;
+
+// const drink = age >= 18 ? 'I like drink wine ' : 'water';
+// console.log(drink);
+
+
+
+
 // let age = 20;
 
 // let drink = age >= 30 ? 'i like drink water ' : 'i dont Like drink  water';
 // console.log(drink)
+
+let age = 20;
+let drink = age >= 30 ?  'I like drunk water' : 'I dont like water';
+console.log(drink)
+
+
 
 // const bill = 275;
 // const tip = bill <= 300 && bill <=50 ? bill * 0.05:
 // bill * 0.2;
 // console.log(`the bill was ${bill}, the tip was ${tip},
 // and the total value ${bill + tip}`);
+
+const bill = 275;
+const tip = bill <= 300 && bill <= 50 ? bill * 0.05:
+bill *0.2;
+console.log(`the bill was ${bill}, the tip was ${tip},
+    and the total value ${bill + tip} `);
 
 // SECTION 2
 
@@ -198,17 +218,39 @@ switch (day) {
 //     const juice = `juice with ${apple} apple and ${banana} banana.`
 //     return juice;
 // }
+
+
 // const applejuice = fruit(5, 2)
 // console.log(applejuice)
 // const appleappleorange = fruit(5, 7)
 // console.log(appleappleorange)
 
+function fruit(apple, orange) {
+    const juice = `juice with ${apple} apple and ${orange} orange.`
+    return juice;
+}
+
+const applejuice = fruit(5, 2)
+console.log(applejuice);
+const appleappleorange = fruit(40,60)
+console.log(appleappleorange);
+
+
+
 // function calsAge1(birthYeh) {
 //     return 2025 - birthYeh;
 // }
-// const age1 = calsAge1(2004)
+// const age1 = calsAge1(2022)
 
 // console.log(age1)
+
+function calcAge1(birthYeah) {
+    return 2025 - birthYeah;
+}
+const age1 = calcAge1(2024)
+console.log(age1)
+
+
 
 // const calcAverage = (a, b, c) => (a + b + c) / 3;
 
@@ -226,6 +268,12 @@ switch (day) {
 // };
 
 // checkWinner(scoreDolphins, scoreKoalas);
+
+
+
+const calcAverage = (a, b, c) => (a  + b + c) / 3;
+let scoreDolphins = calcAverage(44, 23, 71);
+
 
 // scoreDolphins = calcAverage(85, 54, 41);
 // scoreKoalas = calcAverage(23, 34, 27);
@@ -416,3 +464,34 @@ switch (day) {
 
 // const cube= (n) => n* n * n;
 
+
+
+let student = [
+{
+    name: "aman",
+    marks: "94"
+
+},
+{
+    name: "shadha",
+    marks: "40.1"
+},
+{
+    name: "rahat",
+    marks: "50"
+}, 
+
+];
+
+let gpa = student.map((el) => {
+    return el.marks / 10;
+}); 
+// arr.forEach((student)=> {
+//     console.log(student.marks)
+// })
+
+
+// let num = [1, 2, 3, 4];
+// let double = num.map((el) => {
+//     return el * 2;
+// });
