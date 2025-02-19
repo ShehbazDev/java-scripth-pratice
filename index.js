@@ -466,26 +466,26 @@ let scoreDolphins = calcAverage(44, 23, 71);
 
 
 
-let student = [
-{
-    name: "aman",
-    marks: "94"
+// let student = [
+// {
+//     name: "aman",
+//     marks: "94"
 
-},
-{
-    name: "shadha",
-    marks: "40.1"
-},
-{
-    name: "rahat",
-    marks: "50"
-}, 
+// },
+// {
+//     name: "shadha",
+//     marks: "40.1"
+// },
+// {
+//     name: "rahat",
+//     marks: "50"
+// }, 
 
-];
+// ];
 
-let gpa = student.map((el) => {
-    return el.marks / 10;
-}); 
+// let gpa = student.map((el) => {
+//     return el.marks / 10;
+// }); 
 // arr.forEach((student)=> {
 //     console.log(student.marks)
 // })
@@ -495,3 +495,111 @@ let gpa = student.map((el) => {
 // let double = num.map((el) => {
 //     return el * 2;
 // });
+
+
+
+// OBJECT LITERALS 
+
+
+// const student = {
+//     name : "shehbaz",
+//     age : 21,
+//     marks : 94,
+//     city : "chalt"
+    
+// }
+// console.log(student.city)
+
+// const item = {
+//     price : 200,
+//     discount : 30,
+//     colors : ["red", "pink"]
+// };
+// console.log(item.colors)
+
+
+
+// const obj = {
+//     1 : "b",
+//     2 : "c",
+//     true : "d",
+//     null : "e",
+//     undefined : "f"
+// }
+
+// console.log(obj)
+
+
+// const  classinfo = {
+//   aman:  {
+//        grade : "A",
+//        city : "chalt" 
+//     },
+//   akram:  {
+//     grade : "B",
+//     city : "delhi"
+//     },
+// shehbaz :    {
+//     grade : "C",
+//     city : "mombay"
+// }
+// };
+// console.log(classinfo.shehbaz) 
+
+
+
+
+// const stu = {
+//     name : "shradha",
+//     age : 23,
+//     eng : 59,
+//     math : 59,
+//     phy : 97,
+// getavg() {
+//     let avg = (this.eng + this.math + this.phy) / 3;
+//     console.log(avg);
+// }
+    
+// };
+
+// console.log("helo");
+// console.log("hello");
+// // let a = 4;
+// try {
+//     console.log(a);
+// } catch (err) {
+//     console.log("catch am error .. is not dedind");
+//     console.log(err);
+// }
+
+// console.log('hello');
+
+// const sum = (a , b) => {
+//     console.log(a * b)
+// };
+// sum(4,5);
+// const cube = (n) => (n * n * n);
+// cube(5);
+
+// const sum = (a, b) => (a + b);
+// sum(40, 50);
+
+
+
+
+// console.log("hi there");
+
+// setTimeout(() => {
+//     console.log("apna college")
+// },4000);
+
+// console.log("welcome to")
+// console.log("welcome to")
+// console.log("welcome to")
+// console.log("welcome to")
+// console.log("welcome to")
+
+ 
+
+
+
