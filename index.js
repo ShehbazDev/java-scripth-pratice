@@ -601,5 +601,18 @@ let scoreDolphins = calcAverage(44, 23, 71);
 
  
 
+let id = setInterval(() => {
+    console.log("apna college")
+}, 2000);
+
+console.log(id);
+
+
+
+// let id = setInterval(() => {
+//     console.log("apna college")
+// }, 2000);
+
+// console.log(id);
 
 
