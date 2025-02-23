@@ -288,15 +288,16 @@
 
 // console.log(friends)
 
-// const shebaz = {
-//     first : "Abid",
-//     last :"Hussain",
-//     age : 2037 - 1991,
-//     job : "triangle",
-//     frends : ["Ali", "shan", "sara"]
-// },
+const shebaz = {
+    first : "Abid",
+    last :"Hussain",
+    age : 2037 - 1991,
+    job : "triangle",
+    frends : ["Ali", "shan", "sara"]
+}
+console.log(shebaz)
 
-
+// console.log(shebaz)
 // console.log(shebaz.last)
 // console.log(shebaz['last']);
 
