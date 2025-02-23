@@ -8,13 +8,13 @@
 
 // console.log('23' / '2')
 
-const inputyear = '1991';
-console.log(Number(inputyear),inputyear);
-console.log(inputyear + 18)
+// const inputyear = '1991';
+// console.log(Number(inputyear),inputyear);
+// console.log(inputyear + 18)
 
-console.log('i am ' + 23 + 'year old')
-console.log('23' - '10' - 3);
-console.log('23' / '2')
+// console.log('i am ' + 23 + 'year old')
+// console.log('23' - '10' - 3);
+// console.log('23' / '2')
 
 
 
@@ -23,9 +23,9 @@ console.log('23' / '2')
 // n = n - 1; 
 // console.log(n);
 
-let n = '1' + '1';
-n = n - 1;
-console.log(n);
+// let n = '1' + '1';
+// n = n - 1;
+// console.log(n);
 
 
 
@@ -36,12 +36,12 @@ console.log(n);
 //     console.log("djjsd")
 // }
 
-const money = 100;
-if (money) {
-    console.log("i dont like")
-} else {
-    console.log("i like ")
-}
+// const money = 100;
+// if (money) {
+//     console.log("i dont like")
+// } else {
+//     console.log("i like ")
+// }
 
 
 
@@ -60,18 +60,18 @@ if (money) {
 
 
 
-const hasdrivelinces = true;
-const hasdrive =true;
-const has = true;
-console.log(has  || hasdrive)
-console.log(hasdrivelinces && hasdrive)
-console.log(!has)
+// const hasdrivelinces = true;
+// const hasdrive =true;
+// const has = true;
+// console.log(has  || hasdrive)
+// console.log(hasdrivelinces && hasdrive)
+// console.log(!has)
 
-if (hasdrivelinces && hasdrive && !has) {
-    console.log('shabaz is good boy ... is ka condition true ha')
-} else {
-    console.log('shebaz is bad boy ... is ka condition false ha')
-}
+// if (hasdrivelinces && hasdrive && !has) {
+//     console.log('shabaz is good boy ... is ka condition true ha')
+// } else {
+//     console.log('shebaz is bad boy ... is ka condition false ha')
+// }
 
 
 
@@ -85,15 +85,15 @@ if (hasdrivelinces && hasdrive && !has) {
 //     console.log('this is false value...')
 // )
 
-const shehbaz = true; 
-const abid = true;
-const meraj = !false;
+// const shehbaz = true; 
+// const abid = true;
+// const meraj = !false;
 
-if (shehbaz && abid && meraj) {
-    console.log('thi is true value ...')
-} else (
-    console.log ('this is false value ... ')
-)
+// if (shehbaz && abid && meraj) {
+//     console.log('thi is true value ...')
+// } else (
+//     console.log ('this is false value ... ')
+// )
 
 
 
@@ -149,22 +149,22 @@ if (shehbaz && abid && meraj) {
 //     console.log('not a valid day!')
 //  }
 
-const day = 'monday';
-switch (day) {
-        case 'monday':
-        console.log('plane course structure');
-        console.log('Go to coding meetup');
-        break;
-        case 'Tuesday':
-        console.log('write with example');
-        case 'wenesday':
-        console.log('preapre thery videos');
-        break;
-        case 'thusday':
-        console.log('enjoy the weekend :D');
+// const day = 'monday';
+// switch (day) {
+//         case 'monday':
+//         console.log('plane course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//         case 'Tuesday':
+//         console.log('write with example');
+//         case 'wenesday':
+//         console.log('preapre thery videos');
+//         break;
+//         case 'thusday':
+//         console.log('enjoy the weekend :D');
     
 
-}
+// }
 
 
 
@@ -187,9 +187,9 @@ switch (day) {
 // let drink = age >= 30 ? 'i like drink water ' : 'i dont Like drink  water';
 // console.log(drink)
 
-let age = 20;
-let drink = age >= 30 ?  'I like drunk water' : 'I dont like water';
-console.log(drink)
+// let age = 20;
+// let drink = age >= 30 ?  'I like drunk water' : 'I dont like water';
+// console.log(drink)
 
 
 
@@ -199,11 +199,11 @@ console.log(drink)
 // console.log(`the bill was ${bill}, the tip was ${tip},
 // and the total value ${bill + tip}`);
 
-const bill = 275;
-const tip = bill <= 300 && bill <= 50 ? bill * 0.05:
-bill *0.2;
-console.log(`the bill was ${bill}, the tip was ${tip},
-    and the total value ${bill + tip} `);
+// const bill = 275;
+// const tip = bill <= 300 && bill <= 50 ? bill * 0.05:
+// bill *0.2;
+// console.log(`the bill was ${bill}, the tip was ${tip},
+//     and the total value ${bill + tip} `);
 
 // SECTION 2
 
@@ -225,15 +225,15 @@ console.log(`the bill was ${bill}, the tip was ${tip},
 // const appleappleorange = fruit(5, 7)
 // console.log(appleappleorange)
 
-function fruit(apple, orange) {
-    const juice = `juice with ${apple} apple and ${orange} orange.`
-    return juice;
-}
+// function fruit(apple, orange) {
+//     const juice = `juice with ${apple} apple and ${orange} orange.`
+//     return juice;
+// }
 
-const applejuice = fruit(5, 2)
-console.log(applejuice);
-const appleappleorange = fruit(40,60)
-console.log(appleappleorange);
+// const applejuice = fruit(5, 2)
+// console.log(applejuice);
+// const appleappleorange = fruit(40,60)
+// console.log(appleappleorange);
 
 
 
@@ -244,11 +244,11 @@ console.log(appleappleorange);
 
 // console.log(age1)
 
-function calcAge1(birthYeah) {
-    return 2025 - birthYeah;
-}
-const age1 = calcAge1(2024)
-console.log(age1)
+// function calcAge1(birthYeah) {
+//     return 2025 - birthYeah;
+// }
+// const age1 = calcAge1(2024)
+// console.log(age1)
 
 
 
@@ -271,8 +271,8 @@ console.log(age1)
 
 
 
-const calcAverage = (a, b, c) => (a  + b + c) / 3;
-let scoreDolphins = calcAverage(44, 23, 71);
+// const calcAverage = (a, b, c) => (a  + b + c) / 3;
+// let scoreDolphins = calcAverage(44, 23, 71);
 
 
 // scoreDolphins = calcAverage(85, 54, 41);
@@ -280,11 +280,11 @@ let scoreDolphins = calcAverage(44, 23, 71);
 
 // checkWinner(scoreDolphins, scoreKoalas);
 
-// const friends = ['one', 'steven', 'peter'];
-// friends.push('jay');
-// friends.unshift('john')
-// friends.pop();
-// friends.shift();
+// const friends = ['one', 'Two', 'Three'];
+// friends.push('four');
+// friends.unshift('five')
+// // friends.pop();
+// // friends.shift();
 
 // console.log(friends)
 
@@ -296,7 +296,7 @@ let scoreDolphins = calcAverage(44, 23, 71);
 //     frends : ["Ali", "shan", "sara"]
 // },
 
-// console.log(shebaz)
+
 // console.log(shebaz.last)
 // console.log(shebaz['last']);
 
@@ -601,11 +601,11 @@ let scoreDolphins = calcAverage(44, 23, 71);
 
  
 
-let id = setInterval(() => {
-    console.log("apna college")
-}, 2000);
+// let id = setInterval(() => {
+//     console.log("apna college")
+// }, 2000);
 
-console.log(id);
+// console.log(id);
 
 
 
@@ -616,3 +616,10 @@ console.log(id);
 // console.log(id);
 
 
+
+
+// DOCUMENT OBJECT MODEL
+
+
+// document.getElementById("box1");
+// console.log(box1)
