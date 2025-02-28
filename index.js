@@ -288,30 +288,55 @@
 
 // console.log(friends)
 
-const shebaz = {
-    first : "Abid",
-    last :"Hussain",
-    age : 2037 - 1991,
-    job : "triangle",
-    frends : ["Ali", "shan", "sara"]
-}
-console.log(shebaz)
-
+// const shebaz = {
+//     first : "Abid",
+//     last :"Hussain",
+//     age : 2037 - 1991,
+//     job : "triangle",
+//     frends : ["Ali", "shan", "sara"]
+// }
 // console.log(shebaz)
 // console.log(shebaz.last)
-// console.log(shebaz['last']);
+// console.log(shebaz['frends']);
 
 // const interin = prompt('what do you want to know about ? choose between first, last, job, and friends');
-// console.log(shebaz[interin])
+// console.log(shebaz[interin]);
 
 // const yearsUntiRetirement = function (birthYeah, firstName) {
 //     const age = 2037 - birthYeah;
-//     const retirement - 65 - age;
+//     const retirement = 65 - age;
 
 //     return `${firstName} retires is ${retirement} yeras`;
 // }
 
-// console.log(`${shebaz.first} has ${shebaz.frends.length} frends and best frend is called ${shebaz.frends[0]}`);
+// console.log(`${shebaz.first} has ${shebaz.frends.length} frends and best frend is called ${shebaz.frends[3]}`);
+
+
+// const shebaz = {
+//     first : 'abid',
+//     last : 'hussain abbas',
+//     age : 300 - 100,
+//     job : 'triangle technology',
+//     frends : ['ali', 'ikhlaq', 'shaghan', 'junaid'],
+
+// }
+// console.log(shebaz.first)
+// console.log(shebaz)
+// console.log(shebaz.frends)
+
+// const interin = prompt('what do you want to know about ? choose between first, last, job, and frends');
+// console.log(shebaz[interin]);
+// const yearsUntiRetirement = function (birthYeah , firstName) {
+//     const age = 2037 - birthYeah;
+//     const retirement = 65 - age;
+
+//     return `${firstName} retires is ${retirement} years`;
+
+// }
+// console.log(`${shebaz.first} has ${shebaz.frends.length} frends and best frend is called ${shebaz.frends[3]}`);
+
+
+
 
 // const  shebaz = [
 //     "Abid",
@@ -622,5 +647,11 @@ console.log(shebaz)
 // DOCUMENT OBJECT MODEL
 
 
-// document.getElementById("box1");
-// console.log(box1)
+// let images = document.getElementsByClassName("oldimg");
+
+// for(let i=0; i<images.length; i++) {
+//   console.dir(images[i])
+// }
+
+
+
