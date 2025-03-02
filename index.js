@@ -655,3 +655,51 @@
 
 
 
+// function changeText() {
+//     document.getElementById('heading').innerText = 'Hi bro how are you!';
+   
+//   }
+// let img = document.querySelector('img');
+
+// img.getAttribute('id');
+
+// console.log(img)
+
+// NAVAGITION
+
+// let h1 = document.querySelector('h1')
+// console.log(h1.parentElement)
+
+let h1 = document.querySelector('h1')
+console.log(h1.parentElement)
+
+// let ul = document.querySelector('ul')
+// console.log(ul.children[1].nextElementSibling)
+
+let ul = document.querySelector('ul')
+console.log(ul.children[1].nextElementSibling)
+
+
+// document.createElement('p');
+// let newp = document.createElement('p')
+// console.dir(newp);
+// newp.innerText = "hi i am here p";
+
+// console.dir(newp);
+// let body = document.querySelector('body');
+// body.appendChild(newp);
+
+// let box = document.querySelector('.box')
+// box.appendChild(newp)
+
+document.createElement('p')
+let newp = document.createElement('p')
+console.dir(newp);
+newp.innerText = "Hi i am muhammad shehbaz"
+
+console.dir(newp);
+let body = document.querySelector('body');
+body.appendChild(newp);
+
+let box = document.querySelector('.box')
+box.appendChild(newp) 
