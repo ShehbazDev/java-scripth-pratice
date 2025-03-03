@@ -670,14 +670,14 @@
 // let h1 = document.querySelector('h1')
 // console.log(h1.parentElement)
 
-let h1 = document.querySelector('h1')
-console.log(h1.parentElement)
+// let h1 = document.querySelector('h1')
+// console.log(h1.parentElement)
+
+// // let ul = document.querySelector('ul')
+// // console.log(ul.children[1].nextElementSibling)
 
 // let ul = document.querySelector('ul')
 // console.log(ul.children[1].nextElementSibling)
-
-let ul = document.querySelector('ul')
-console.log(ul.children[1].nextElementSibling)
 
 
 // document.createElement('p');
@@ -692,14 +692,54 @@ console.log(ul.children[1].nextElementSibling)
 // let box = document.querySelector('.box')
 // box.appendChild(newp)
 
-document.createElement('p')
-let newp = document.createElement('p')
-console.dir(newp);
-newp.innerText = "Hi i am muhammad shehbaz"
+// document.createElement('p')
+// let newp = document.createElement('p')
+// console.dir(newp);
+// newp.innerText = "Hi i am muhammad shehbaz"
 
-console.dir(newp);
-let body = document.querySelector('body');
-body.appendChild(newp);
+// console.dir(newp);
+// let body = document.querySelector('body');
+// body.appendChild(newp);
 
-let box = document.querySelector('.box')
-box.appendChild(newp) 
+// let box = document.querySelector('.box')
+// box.appendChild(newp) 
+
+
+// let para1 = document.createElement("p");
+// para1.innerText = "Hey I'm red!";
+// document.querySelector("body").prepend(para1);
+
+// para1.classList.add("red");
+
+// let h3 = document.createElement("h3");
+// h3.innerText = "Hey I'm blue h3!";
+// document.querySelector("body").prepend(h3);
+
+// h3.classList.add("blue");
+
+// let div = document.createElement("div");
+
+// let h1 = document.createElement("h1");
+// let para2 = document.createElement("p")
+
+// h1.innerText = "I am a h1";
+// para2.innerText = "Me Too";
+
+// div.append(h1);
+// div.append(para2);
+// div.classList.add("box")
+// document.querySelector("body").prepend(div);
+
+// let btn = document.querySelector("button")
+// console.dir(btn);
+
+// btn.onclick = function () {
+//     console.log("button was clicked")
+  
+// }
+
+let btn = document.querySelector("button");
+console.log(btn);
+btn.onclick = function () {
+    console.log('button was clicked')
+}
