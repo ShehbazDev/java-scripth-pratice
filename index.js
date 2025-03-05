@@ -16,18 +16,13 @@
 // console.log('23' - '10' - 3);
 // console.log('23' / '2')
 
-
-
-
 // let n = '1' + 1;
-// n = n - 1; 
+// n = n - 1;
 // console.log(n);
 
 // let n = '1' + '1';
 // n = n - 1;
 // console.log(n);
-
-
 
 // const money = 100;
 // if (money) {
@@ -43,8 +38,6 @@
 //     console.log("i like ")
 // }
 
-
-
 // const hasdrivelinces = true;
 // const hasgoodvision = true;
 // const istired = false;
@@ -57,8 +50,6 @@
 // } else {
 //     console.log('shehbaz is bad ... is condion ma false ha')
 // }
-
-
 
 // const hasdrivelinces = true;
 // const hasdrive =true;
@@ -73,8 +64,6 @@
 //     console.log('shebaz is bad boy ... is ka condition false ha')
 // }
 
-
-
 // const shabaz = true;
 // const abid = true;
 // const meraj = false;
@@ -85,7 +74,7 @@
 //     console.log('this is false value...')
 // )
 
-// const shehbaz = true; 
+// const shehbaz = true;
 // const abid = true;
 // const meraj = !false;
 
@@ -94,8 +83,6 @@
 // } else (
 //     console.log ('this is false value ... ')
 // )
-
-
 
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas = (88 + 91 + 110) / 3;
@@ -121,8 +108,6 @@
 // } else {
 //     console.log("today game draw")
 // }
-
-
 
 //  const day = 'monday';
 
@@ -162,12 +147,8 @@
 //         break;
 //         case 'thusday':
 //         console.log('enjoy the weekend :D');
-    
 
 // }
-
-
-
 
 // const age = 30;
 
@@ -179,9 +160,6 @@
 // const drink = age >= 18 ? 'I like drink wine ' : 'water';
 // console.log(drink);
 
-
-
-
 // let age = 20;
 
 // let drink = age >= 30 ? 'i like drink water ' : 'i dont Like drink  water';
@@ -190,8 +168,6 @@
 // let age = 20;
 // let drink = age >= 30 ?  'I like drunk water' : 'I dont like water';
 // console.log(drink)
-
-
 
 // const bill = 275;
 // const tip = bill <= 300 && bill <=50 ? bill * 0.05:
@@ -219,7 +195,6 @@
 //     return juice;
 // }
 
-
 // const applejuice = fruit(5, 2)
 // console.log(applejuice)
 // const appleappleorange = fruit(5, 7)
@@ -235,8 +210,6 @@
 // const appleappleorange = fruit(40,60)
 // console.log(appleappleorange);
 
-
-
 // function calsAge1(birthYeh) {
 //     return 2025 - birthYeh;
 // }
@@ -249,8 +222,6 @@
 // }
 // const age1 = calcAge1(2024)
 // console.log(age1)
-
-
 
 // const calcAverage = (a, b, c) => (a + b + c) / 3;
 
@@ -269,11 +240,8 @@
 
 // checkWinner(scoreDolphins, scoreKoalas);
 
-
-
 // const calcAverage = (a, b, c) => (a  + b + c) / 3;
 // let scoreDolphins = calcAverage(44, 23, 71);
-
 
 // scoreDolphins = calcAverage(85, 54, 41);
 // scoreKoalas = calcAverage(23, 34, 27);
@@ -311,7 +279,6 @@
 
 // console.log(`${shebaz.first} has ${shebaz.frends.length} frends and best frend is called ${shebaz.frends[3]}`);
 
-
 // const shebaz = {
 //     first : 'abid',
 //     last : 'hussain abbas',
@@ -334,9 +301,6 @@
 
 // }
 // console.log(`${shebaz.first} has ${shebaz.frends.length} frends and best frend is called ${shebaz.frends[3]}`);
-
-
-
 
 // const  shebaz = [
 //     "Abid",
@@ -387,9 +351,6 @@
 
 // console.log(num + 21)
 
-
-
-
 // const max = prompt("Enter the max number");
 // const random = Math.floor(Math.random() * max) + 1;
 // let guess = prompt("guess the number");
@@ -407,9 +368,6 @@
 //     guess = promt("hint :you guess was large .please try again");
 //   }
 // }
-
-
-
 
 // const max = prompt(":enter the number");
 // const random = Math.floor(Math.random() * max) + 1;
@@ -430,8 +388,6 @@
 //   }
 // }
 
-
-
 // function multiplegreet(func, count) {
 //     for(let i=1; i<=count; i++) {
 //         func();
@@ -444,9 +400,6 @@
 
 // multiplegreet(greet, 10000)
 
-
-
-
 //  const student = {
 //     name : "shada",
 //     age : "40",
@@ -458,7 +411,6 @@
 //         console.log(`${this.name} got avg marks = ${this.phy}`);
 //     }
 //  }
-
 
 // console.log("hello");
 // console.log("hello");
@@ -474,11 +426,8 @@
 // console.log("hello");
 // console.log("hello");
 
-
 // const name = "muhammad"
 // console.log(name)
-
-
 
 // const sum = (a , b) => {
 //     console.log(a+b);
@@ -487,10 +436,7 @@
 // sum(10, 30)
 // console.log(sum)
 
-
 // const cube= (n) => n* n * n;
-
-
 
 // let student = [
 // {
@@ -505,34 +451,30 @@
 // {
 //     name: "rahat",
 //     marks: "50"
-// }, 
+// },
 
 // ];
 
 // let gpa = student.map((el) => {
 //     return el.marks / 10;
-// }); 
+// });
 // arr.forEach((student)=> {
 //     console.log(student.marks)
 // })
-
 
 // let num = [1, 2, 3, 4];
 // let double = num.map((el) => {
 //     return el * 2;
 // });
 
-
-
-// OBJECT LITERALS 
-
+// OBJECT LITERALS
 
 // const student = {
 //     name : "shehbaz",
 //     age : 21,
 //     marks : 94,
 //     city : "chalt"
-    
+
 // }
 // console.log(student.city)
 
@@ -542,8 +484,6 @@
 //     colors : ["red", "pink"]
 // };
 // console.log(item.colors)
-
-
 
 // const obj = {
 //     1 : "b",
@@ -555,11 +495,10 @@
 
 // console.log(obj)
 
-
 // const  classinfo = {
 //   aman:  {
 //        grade : "A",
-//        city : "chalt" 
+//        city : "chalt"
 //     },
 //   akram:  {
 //     grade : "B",
@@ -570,10 +509,7 @@
 //     city : "mombay"
 // }
 // };
-// console.log(classinfo.shehbaz) 
-
-
-
+// console.log(classinfo.shehbaz)
 
 // const stu = {
 //     name : "shradha",
@@ -585,7 +521,7 @@
 //     let avg = (this.eng + this.math + this.phy) / 3;
 //     console.log(avg);
 // }
-    
+
 // };
 
 // console.log("helo");
@@ -610,9 +546,6 @@
 // const sum = (a, b) => (a + b);
 // sum(40, 50);
 
-
-
-
 // console.log("hi there");
 
 // setTimeout(() => {
@@ -625,27 +558,19 @@
 // console.log("welcome to")
 // console.log("welcome to")
 
- 
-
 // let id = setInterval(() => {
 //     console.log("apna college")
 // }, 2000);
 
 // console.log(id);
 
-
-
 // let id = setInterval(() => {
 //     console.log("apna college")
 // }, 2000);
 
 // console.log(id);
-
-
-
 
 // DOCUMENT OBJECT MODEL
-
 
 // let images = document.getElementsByClassName("oldimg");
 
@@ -653,11 +578,9 @@
 //   console.dir(images[i])
 // }
 
-
-
 // function changeText() {
 //     document.getElementById('heading').innerText = 'Hi bro how are you!';
-   
+
 //   }
 // let img = document.querySelector('img');
 
@@ -678,7 +601,6 @@
 
 // let ul = document.querySelector('ul')
 // console.log(ul.children[1].nextElementSibling)
-
 
 // document.createElement('p');
 // let newp = document.createElement('p')
@@ -702,8 +624,7 @@
 // body.appendChild(newp);
 
 // let box = document.querySelector('.box')
-// box.appendChild(newp) 
-
+// box.appendChild(newp)
 
 // let para1 = document.createElement("p");
 // para1.innerText = "Hey I'm red!";
@@ -735,11 +656,62 @@
 
 // btn.onclick = function () {
 //     console.log("button was clicked")
-  
+
 // }
 
-let btn = document.querySelector("button");
-console.log(btn);
-btn.onclick = function () {
-    console.log('button was clicked')
-}
+// let btn = document.querySelector("button");
+// console.log(btn);
+// btn.onclick = function () {
+//     console.log('button was clicked')
+// }
+
+// let p = document.querySelector("p");
+
+// p.addEventListener("click", function () {
+//     console.log("para was clicked")
+// });
+
+// let box = document.querySelector(".box");
+// box.addEventListener("mouseenter",function () {
+//     alert("mouse inside box")
+// })
+
+// let btn = document.querySelector("button");
+// // let h1 = document.querySelector("h1");
+// // let h3 = document.querySelector("h3");
+// // let p = document.querySelector("p");
+
+// function changeColor() {
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "yellow";
+// }
+
+// h1.addEventListener("click", changeColor)
+// h3.addEventListener("click", changeColor)
+// p.addEventListener("click", changeColor)
+// btn.addEventListener("click", changeColor)
+
+// let btn = document.querySelector("button");
+
+  
+
+
+// btn.addEventListener("click", function (event) {
+//   console.log(event);
+//   console.log("button clicked");
+// });
+
+
+let inp = document.querySelector("input");
+
+inp.addEventListener('keydown',function (event) {
+    console.log(event.key)
+    console.log(event.code)
+    console.log("key was pressed")
+})
+
+// inp.addEventListener('keyup',function () {
+//     console.log("key was released")
+// })
+
+
