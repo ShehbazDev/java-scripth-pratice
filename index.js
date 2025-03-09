@@ -702,16 +702,45 @@
 // });
 
 
-let inp = document.querySelector("input");
+// let inp = document.querySelector("input");
 
-inp.addEventListener('keydown',function (event) {
-    console.log(event.key)
-    console.log(event.code)
-    console.log("key was pressed")
-})
+// inp.addEventListener('keydown',function (event) {
+//     console.log(event.key)
+//     console.log(event.code)
+//     console.log("key was pressed")
+// })
 
 // inp.addEventListener('keyup',function () {
 //     console.log("key was released")
 // })
 
+
+// let btn = document.querySelector("button");
+
+// btn.addEventListener("click", function (event) {
+//     console.log(event)
+//     console.log("button clicked");
+// });
+
+// let form = document.querySelector("form");
+
+// form.addEventListener("submit", function(){
+//     event.preventDefault();
+// console.dir(form)
+
+//     let user = this.elements[0];
+//     let pass = this.elements[1];
+
+//     console.log(user.value)
+//     console.log(pass.value)
+//     alert(`Hi ${user.value}, your password is set to ${pass.value}`);
+// })
+
+let inp = document.querySelector("#text")
+let p = document.querySelector("p");
+
+inp.addEventListener("input", function () {
+    console.log(inp.value);
+    p.innerText = inp.value;
+})
 
