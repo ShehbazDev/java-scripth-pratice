@@ -736,11 +736,50 @@
 //     alert(`Hi ${user.value}, your password is set to ${pass.value}`);
 // })
 
-let inp = document.querySelector("#text")
-let p = document.querySelector("p");
+// let inp = document.querySelector("#text")
+// let p = document.querySelector("p");
 
-inp.addEventListener("input", function () {
-    console.log(inp.value);
-    p.innerText = inp.value;
-})
+// inp.addEventListener("input", function () {
+//     console.log(inp.value);
+//     p.innerText = inp.value;
+// })
 
+
+
+// let btn = document.querySelector("button")
+// let ul = document.querySelector("ul")
+// let inp = document.querySelector("input")
+
+// btn.addEventListener("click", function () {
+//     let item = document.createElement("li");
+//     item.innerText = inp.value;
+
+//     let dltbtn = document.createElement("button");
+//     dltbtn.innerText = "delete";
+//     dltbtn.classList.add("delete");
+
+//     item.appendChild(dltbtn);
+//     ul.appendChild(item);
+//     console.log(inp.value)
+//     inp.value = "";
+// });
+
+
+// ul.addEventListener("click", function(event) {
+// if(event.target.nodeName == "BUTTON") {
+//     let listitm = event.target.parentElement;
+//     listitm.remove();
+//     console.log("delete")
+// }  
+// } );
+
+
+
+// let delbtns = document.querySelectorAll(".delete");
+// for (delbtn of delbtns) {
+//     delbtn.addEventListener("click", function () {
+//         let par = this.parentElement;
+//         console.log(par);
+//         par.remove();
+//     })
+// }
