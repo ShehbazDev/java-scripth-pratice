@@ -783,3 +783,25 @@
 //         par.remove();
 //     })
 // }
+
+// function hello() {
+//     console.log('hello')
+// }
+
+// function demo() {
+//     hello();
+// }
+// demo();
+
+
+function one() {
+    return 1;
+}
+
+function two() {
+    return one() + one();
+}
+function Three() {
+    let ans= two() + one()
+    console.log(ans);
+}
