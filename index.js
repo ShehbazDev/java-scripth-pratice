@@ -794,14 +794,65 @@
 // demo();
 
 
-function one() {
-    return 1;
-}
+// function one() {
+//     return 1;
+// }
 
-function two() {
-    return one() + one();
-}
-function Three() {
-    let ans= two() + one()
-    console.log(ans);
-}
+// function two() {
+//     return one() + one();
+// }
+// function Three() {
+//     let ans= two() + one()
+//     console.log(ans);
+// }
+
+// for (let i = 1; i <= 1000; i++) {
+//     console.log("Hello bro what are you doing", i);
+//   }
+
+// CALL STAKE
+
+
+// function one() {
+//   return 1;
+// }
+
+// function two() {
+//   return one() + one();
+// }
+// function three() {
+//   let ans = two() + one();
+//   console.log(ans);
+// }
+// three();
+
+h1 = document.querySelector("h1");
+
+// setTimeout(() => {
+//   h1.style.color = "red";
+// }, 1000);
+
+// setTimeout(() => {
+//   h1.style.color = "orange";
+// }, 2000);
+
+// setTimeout(() => {
+//   h1.style.color = "green";
+// }, 3000);
+
+
+function changeColo(color, delay, nextColorChange) {
+  setTimeout(() => {
+    h1.style.color = color;
+    if (nextColorChange) nextColorChange();
+  },delay);
+};
+changeColo("red", 1000, () => {
+  changeColo("orange", 1000, () => {
+    changeColo("pink", 1000, () => {
+      changeColo("green", 1000, () => {
+        changeColo("blue", 1000);
+      });
+    });
+  });
+});
