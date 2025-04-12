@@ -826,7 +826,7 @@
 // }
 // three();
 
-h1 = document.querySelector("h1");
+// h1 = document.querySelector("h1");
 
 // setTimeout(() => {
 //   h1.style.color = "red";
@@ -841,18 +841,144 @@ h1 = document.querySelector("h1");
 // }, 3000);
 
 
-function changeColo(color, delay, nextColorChange) {
-  setTimeout(() => {
-    h1.style.color = color;
-    if (nextColorChange) nextColorChange();
-  },delay);
-};
-changeColo("red", 1000, () => {
-  changeColo("orange", 1000, () => {
-    changeColo("pink", 1000, () => {
-      changeColo("green", 1000, () => {
-        changeColo("blue", 1000);
-      });
-    });
-  });
-});
+
+// h1 = document.querySelector("h1");
+
+
+// function changeColor(color, delay,) {
+//  return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       h1.style.color = color;
+//       resolve("color changed!")
+//     },delay);
+//   });
+ 
+// };
+
+// changeColor("red", 1000)
+// .then(() => {
+//   console.log("red color was changed!");
+//   return changeColor("orange", 1000);
+// })
+// .then(() => {
+//   console.log("orange color was changed!");
+//   return changeColor("green", 1000);
+// })
+// .then(() => {
+//   console.log("green color was changed!");
+//   return changeColor("blue", 1000);
+// })
+// .then(() => {
+//   console.log("blue color was changed!");
+//   return changeColor("pink", 1000);
+// })
+// .then(() => {
+//   console.log("pink color was completed!");
+  
+// });
+
+// changeColo("red", 1000, () => {
+//   changeColo("orange", 1000, () => {
+//     changeColo("pink", 1000, () => {
+//       changeColo("green", 1000, () => {
+//         changeColo("blue", 1000);
+//       });
+//     });
+//   });
+// });
+
+
+
+// function changeColor(color, delay, nextColorChange) {
+//   setTimeout(() => {
+//     h1.style.color = color;
+//     if (nextColorChange) nextColorChange();
+//   }, delay);
+// };
+
+// changeColor("red", 1000, () => {
+//   changeColor("blue", 1000, () => {
+//     changeColor("green", 1000, () => {
+//       changeColor("pink", 1000, () => {
+//         changeColor("black", 1000);
+//       })
+//     })
+//   })
+// })
+
+
+
+
+// function savetodb(data, success, failure) {
+//   let internetspeed = Math.floor(Math.random() * 10) + 1;
+//   if (internetspeed > 4) {
+//     success(data); 
+//   } else {
+//     failure();
+//   }
+// }
+
+// savetodb("apnacollege",
+//   (data) => {
+//     console.log(" success  your data was saved", data);
+//     savetodb(
+//       "hello world",
+//       () => {
+//         console.log("success2: data2 saved");
+//         savetodb("shradha", () => {
+//           console.log("success3 : data3 saved");
+//         }, () => {
+//           console.log("failure3 : week connection ");
+//         })
+//       },
+//       () => {
+//         console.log("failure2 : week connection ");
+//       }
+//     )
+//   },
+//   () => {
+//     console.log(" failiur weak connection. data was not saved");
+//   }
+// );
+
+
+
+// function savetodb(data) {
+//   return new Promise ((resolve, reject) => {
+//     let internetspeed = Math.floor(Math.random() * 10) + 1;
+//     if (internetspeed > 4) {
+//       resolve("resolve: data was saved");
+//     }else {
+//       reject("reject : week connetion");
+//     }
+//   });  
+ 
+
+// }
+
+
+// savetodb("apna college")
+//   .then((result) => {
+//     console.log("data1 was saved.");
+//     console.log("result of promice", result)
+//     return savetodb("hello world");
+//   })
+//   .then((result) => {
+//     console.log("data2 saved");
+//     console.log("result of promice", result)
+//     return savetodb("shabaz");
+//   })
+//   .then((result) => {
+//     console.log("data3 was saved")
+//     console.log("result of promice", result)
+//   })
+//   .catch((error) => {
+//     console.log("promise was rejected");
+//     console.log("error of promice", error)
+//   });
+
+
+ 
+
+
+  
