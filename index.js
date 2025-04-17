@@ -889,6 +889,8 @@
 
 
 
+
+
 // function changeColor(color, delay, nextColorChange) {
 //   setTimeout(() => {
 //     h1.style.color = color;
@@ -905,6 +907,69 @@
 //     })
 //   })
 // })
+
+
+// h1 = document.querySelector("h1");
+
+// function changeColor(color, delay) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let num = Math.floor(Math.random() * 5) + 1;
+//             if (num > 3) {
+//                 reject("promice rejected")
+//             }
+
+//          h1.style.color = color;
+//          resolve("color change!")   
+//         }, delay);
+//     });
+// };
+
+// async function demo() {
+//    try {
+//     await changeColor("red",1000);
+//     await changeColor("brown",1000);
+//     await changeColor("pink",1000);
+//     await changeColor("orange",1000);
+//     await changeColor("blue",1000);
+//    } catch (err) {
+//     console.log("error caught")
+//     console.log(err)
+//    }
+
+
+//     let a = 3;
+// console.log(a)
+// console.log("new number =", a +5);
+// }
+// demo();
+
+
+// changeColor("red", 1000)
+// .then(() => {
+//     console.log("red color was change!")
+//     return changeColor("orange", 1000)
+// })
+// .then(() => {
+//     console.log("orange color was change!")
+//     return changeColor("green", 1000);
+// })
+// .then(() => {
+//     console.log("green color was change!")
+//     return changeColor("blue", 1000);
+// })
+// .then(() => {
+//     console.log("blue color was change!")
+//     return changeColor("pink", 1000);
+// })
+// .then(() => {
+//     console.log("pink color was change!")
+//     return changeColor("brown", 1000);
+// })
+// .then(() => {
+//        console.log("brown color was completed!");
+      
+//     });
 
 
 
@@ -978,7 +1043,40 @@
 //   });
 
 
+
+
+// ASYNC KEYWORD
  
 
 
-  
+//   async function greet(params) {
+//     throw "404 page is not Found"
+//     return "hello";
+//   }
+//   greet()
+//   .then((result) => {
+//     console.log("promice  was rsolve");
+//     console.log("result was", result);
+//   })
+//   .catch((err) => {
+//     console.log("promice was rejected with err : ", err);
+//   })
+
+// async function greet(params) {
+//     throw "400 page is not found"
+//     return "hello"
+    
+// }
+// greet()
+// .then((result) => {
+//     console.log("promice was resolve");
+//     console.log("result was ", result);
+// })
+// .catch((err) => {
+//     console.log("promice was rejected with err", err)
+// })
+
+
+
+
+ 
